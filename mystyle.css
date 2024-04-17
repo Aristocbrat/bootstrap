@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:wght@400;500;600&display=swap');
+*{
+    font-family: "DM Sans", sans-serif; 
+}
+.nav-barr{
+    width: 70%;
+}
+.navbar-brand{
+    color: #1E0E62;
+}
+.large{
+    color: #1E0E62;
+    font-size: 55px;
+}
+.lil-text{
+    width: 471px;
+    color: #15143966;
+}
+
+.getbtn{
+    text-decoration: none;
+    color:white ;
+
+}
+.learnbtn {
+    text-decoration: none;
+    color:#1E0E62;
+}
+.lsttext{
+    color:#15143966 ;
+}
+
+
+@media (max-width:992px) {
+    .image{
+        display: none;
+    }
+    
+    .bigtext h1{
+        margin: auto;
+        font-size: 35px;
+    }
+    
+}
